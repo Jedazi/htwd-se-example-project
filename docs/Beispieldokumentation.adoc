@@ -3,6 +3,7 @@ Vorname Nachname <email>
 1.0, 01.09.2019 
 :toc: 
 :toc-title: Inhaltsverzeichnis
+:source-highlighter: highlight.js
 // Platzhalter für weitere Dokumenten-Attribute 
 
 == Einführung
@@ -47,3 +48,17 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 |**bold**__italic__
 |+**bold**__italic__+
 |Text mir Formatierung innerhalb eines Wortes
+
+|===
+
+## Quellcode
+
+[source,c]
+----
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+    printf("Hello, World!\n");
+    return 0;
+}
