@@ -25,3 +25,25 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 . Dortmund
 . Barselouna 
 . Frankfurt Hbf
+
+## Tabelle einfügen
+
+[cols="1,1,1"]
+|===
+| Formatierung | #Synthax# | Beschreibung
+
+|*bold*
+|+*bold*+
+| fetter text
+
+|_italic_
+|+_italic_+
+|kursiver text
+
+|*_italicbold_*
+|+*_italicbold_*+
+| Text mit kombinierter Formatierung
+
+|**bold**__italic__
+|+**bold**__italic__+
+|Text mir Formatierung innerhalb eines Wortes
